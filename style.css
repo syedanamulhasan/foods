@@ -130,3 +130,34 @@ html{
     box-shadow: -0.2rem -0.2rem -0.2rem #111;
 }
 /* end of section 2 */
+
+/* section 3 */
+.section-3{
+    background-color: #333;
+    padding: 5rem 0;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gallery-link{
+    position:relative;
+}
+.food-img{
+    width: 24vw;
+    height: 15vw;
+    object-fit: cover;
+}
+.food-name{
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #fff;
+}
+/* end of section 3 */
