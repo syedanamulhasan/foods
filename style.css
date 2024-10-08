@@ -142,7 +142,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10 rem 0;
+    padding: 10rem 0;
 }
 .cards-container{
     display: flex;
