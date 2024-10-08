@@ -5,7 +5,8 @@ document.querySelector('.menu').addEventListener('click',()=>{
 })
 
 
-const icons = document.querySelectorAll('section-1-icons i')
+const icons = document.querySelectorAll('.section-1-icons i')
+console.log(icons)
 let i = 1
 
 setInterval(()=>{
